@@ -14,7 +14,7 @@ class _CameraAppState extends State<CameraApp> {
 
   @override
   void initState()  {
-    getnmap ();
+
     // TODO: implement initState
     super.initState();
   }
@@ -25,7 +25,20 @@ class _CameraAppState extends State<CameraApp> {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return Scaffold(
+      body: GestureDetector(
+        onTap: (){
+          getnmap ();
+        },
+        child: Center(
+          child: Container(
+            height: 40,
+            width: 100,
+            color: Colors.red,
+            child: Center(child: Text("Authorize", style: TextStyle(color: Colors.white),)),
+          ),
+        ),
+      ),
 
     );
   }

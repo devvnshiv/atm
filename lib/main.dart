@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
         AppSizeConfig().init(constraints, oriantion);
         return
           GetMaterialApp(
-            title: '',
+            title: 'Smart ATM',
             debugShowCheckedModeBanner: false,
             theme: ThemeData(
               // This is the theme of your application.sss
@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
               // closer together (more dense) than on mobile platforms.
               visualDensity: VisualDensity.adaptivePlatformDensity,
             ),
-            home:Regester() ,
+            home:Splashscreen() ,
           );
       }
       );
