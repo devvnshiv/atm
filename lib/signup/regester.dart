@@ -55,9 +55,9 @@ logic.takeimage();
                     SizedBox(height: 32,),
                     Textfiled("Password",Icons.password, logic.password , true, logic.passwordsr, logic),
                     SizedBox(height: 32),
-                    Textfiled("Rf Id",Icons.password, logic.password , true, logic.rfdnumber, logic),
+                    Textfiled("Rf Id",Icons.password, logic.password , false, logic.rfdnumber, logic),
                     SizedBox(height: 32),
-                    Textfiled("Name",Icons.password, logic.password , true, logic.name, logic),
+                    Textfiled("Name",Icons.password, logic.password , false, logic.name, logic),
                     SizedBox(height: 32),
                     GestureDetector(
                         onTap: (){
