@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "299498733258",
+    "project_id": "aith-37592",
+    "storage_bucket": "aith-37592.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299498733258:android:ec624284fbdab36ddcfe33",
+        "android_client_info": {
+          "package_name": "com.example.auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299498733258-tor379mg2ap0trvlc3kopeecc8sc7k14.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZhE6OfnUDQh24fFwwoUm4untVNjtNju4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299498733258-tor379mg2ap0trvlc3kopeecc8sc7k14.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
